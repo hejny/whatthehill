@@ -55,7 +55,7 @@ export default class WorldGenerator {
                             x = (normalizedPoint.latitude - .5) * 200,
                             z = (normalizedPoint.longitude - .5) * 200;
 
-                        console.log(x,z);
+                        //console.log(x,z);
                         const geoLabel = new GeoLabel(
                             this.world,
                             poi.name,

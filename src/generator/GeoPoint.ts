@@ -60,7 +60,7 @@ export default class GeoPoint {
         const normalizedPoint = this.clone();
 
         for (const coord of ['latitude', 'longitude', 'altitude']) {
-            console.log(coord,normalizedPoint[coord] , min[coord],max[coord] , min[coord]);
+            //console.log(coord,normalizedPoint[coord] , min[coord],max[coord] , min[coord]);
             normalizedPoint[coord] = (normalizedPoint[coord] - min[coord]) / (max[coord] - min[coord]);
         }
 

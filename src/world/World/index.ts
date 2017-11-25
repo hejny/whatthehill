@@ -50,7 +50,7 @@ export default class World{
             //console.log(event,pickResult);
             if (pickResult.hit) {
                 if(uiDataModel.geoLabelsData.length===0) {
-                    console.log('hoover');
+                    //console.log('hoover');
 
                     const pickedGeoLabel = this.geoLabels.find((geoLabel) => geoLabel.mesh === pickResult.pickedMesh);
 
@@ -62,7 +62,7 @@ export default class World{
                 }
             }else{
                 if(uiDataModel.geoLabelsData.length!==0){
-                    console.log('unhoover');
+                    //console.log('unhoover');
                     uiDataModel.geoLabelsData = [];
                 }
 

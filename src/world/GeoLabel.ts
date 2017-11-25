@@ -59,7 +59,7 @@ export default class GeoLabel {
         //geoLabelMaterial.wireframe = true;
         geoLabelMaterial.freeze();
 
-        console.log(geoLabelMaterial);
+        //console.log(geoLabelMaterial);
 
         this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 1.5, this._world.scene);
         //this.mesh.isVisible = false;
