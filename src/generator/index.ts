@@ -14,7 +14,7 @@ export default class WorldGenerator {
         this.world;
 
 
-        const {status, data} = await requestJSON('/api/v2/location.json', {});//todo send data
+        const {status, data} = await requestJSON('https://hejny.github.io/whatthehill/api/v2/location.json', {});//todo send data
 
 
         const groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
