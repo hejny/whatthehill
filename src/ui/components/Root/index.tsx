@@ -7,7 +7,7 @@ import './index.css';
 export default observer(({uiDataModel}:{uiDataModel:UIDataModel})=>{
     return(
         <div>
-            {uiDataModel.geoLabels.map((geoLabel)=><GeoLabel geoLabel={geoLabel}/>)}
+            {uiDataModel.geoLabels.map((geoLabel,i)=><GeoLabel key={i} geoLabel={geoLabel}/>)}
         </div>
     );
 });
