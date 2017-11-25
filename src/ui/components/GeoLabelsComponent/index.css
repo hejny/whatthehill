@@ -1,12 +1,19 @@
-ul.geoLabels{
-     overflow: hidden;
+ul.geoLabels {
+    overflow: hidden;
 }
 
-ul.geoLabels li{
+ul.geoLabels li {
     z-index: 20;
 
-    background-color: black;
+    background-color: #0052ff;
     color: #FFFFFF;
+
+    box-shadow: #FFFFFF 0 0 5px;
+
+    border-radius: 3px;
+    padding: 10px;
+
+    transform: translate(-50%, calc(-100% - 20px));
 
     transition: all 0.1s ease-in-out;
 }
