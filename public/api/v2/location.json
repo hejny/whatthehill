@@ -21,7 +21,7 @@
       "poi": [],
       "tiles": [
          {
-            "url": "dtm1m_quarter.png",
+            "url": "http://localhost:3000/api/v2/dtm1m_quarter.png",
             "boundingBox": {
                "min": {
                   "type": "Feature",

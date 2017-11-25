@@ -1,6 +1,8 @@
 interface IGeoJSONPoint {
-    type: "Point";
-    coordinates: [number, number, number];
+    geometry:{
+        type: "Point";
+        coordinates: [number, number, number];
+    }
 }
 
 
@@ -17,21 +19,24 @@ export default class GeoPoint {
         if(typeof geoJson === 'undefined'){
             throw new Error(`Cant create GeoPoint form undefined.`);
         }
-        if(typeof geoJson.coordinates === 'undefined'){
+        if(typeof geoJson.geometry === 'undefined'){
             throw new Error(`Cant create GeoPoint form ${JSON.stringify(geoJson)}.`);
         }
-        if(typeof geoJson.coordinates[2] !== 'number'){
+        if(typeof geoJson.geometry.coordinates === 'undefined'){
+            throw new Error(`Cant create GeoPoint form ${JSON.stringify(geoJson)}.`);
+        }
+        if(typeof geoJson.geometry.coordinates[2] !== 'number'){
             throw new Error(`Cant create GeoPoint form ${JSON.stringify(geoJson)}.`);
         }
 
         return new GeoPoint(
-            geoJson.coordinates[0],
-            geoJson.coordinates[1],
-            geoJson.coordinates[2]
+            geoJson.geometry.coordinates[0],
+            geoJson.geometry.coordinates[1],
+            geoJson.geometry.coordinates[2]
         )
     }
 
-    toJson(): IGeoJSONPoint {
+    /*toJson(): IGeoJSONPoint {
         return {
             type: "Point",
             coordinates: [
@@ -41,7 +46,7 @@ export default class GeoPoint {
             ]
         }
 
-    }
+    }*/
 
     clone(): GeoPoint {
         return new GeoPoint(
