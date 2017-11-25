@@ -25,14 +25,14 @@ export default class GeoPoint {
         if(typeof geoJson.geometry.coordinates === 'undefined'){
             throw new Error(`Cant create GeoPoint form ${JSON.stringify(geoJson)}.`);
         }
-        if(typeof geoJson.geometry.coordinates[2] !== 'number'){
+        if(typeof geoJson.geometry.coordinates[1] !== 'number'){
             throw new Error(`Cant create GeoPoint form ${JSON.stringify(geoJson)}.`);
         }
 
         return new GeoPoint(
             geoJson.geometry.coordinates[0],
             geoJson.geometry.coordinates[1],
-            geoJson.geometry.coordinates[2]
+            geoJson.geometry.coordinates[2]||0
         )
     }
 

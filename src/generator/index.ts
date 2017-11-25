@@ -44,14 +44,16 @@ export default class WorldGenerator {
 
                     for (const poi of data.poi) {
 
+                        if(!poi.name)continue;
+
                         //console.log(poi);
-                        const point = GeoPoint.fromJSON(poi.geometry);
+                        const point = GeoPoint.fromJSON(poi);
                         const normalizedPoint = point.normalizeInCage(minPoint,maxPoint);
 
 
                         const
-                            x = (normalizedPoint.longitude - .5) * 200,
-                            z = (normalizedPoint.latitude - .5) * 200;
+                            x = (normalizedPoint.latitude - .5) * 200,
+                            z = (normalizedPoint.longitude - .5) * 200;
 
                         console.log(x,z);
                         const geoLabel = new GeoLabel(

@@ -18,7 +18,4726 @@
             }
          }
       },
-      "poi": [],
+      "poi": [
+         {
+            "name": "Deymovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.417305,
+                  50.0808788
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Thurn-Taxisů",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.408497,
+                  50.0897506
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Kounický palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.405471,
+                  50.0869758
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Harrachovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4293831,
+                  50.0839125
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Tyršův dům",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4053917,
+                  50.0834087
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Lichtenštejnský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4087329,
+                  50.085322
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Vratislavský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4018537,
+                  50.0872959
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Vrtbovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4028075,
+                  50.086875
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Nostický palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4054299,
+                  50.0854153
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Palác Pachtů z Rájova",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4148942,
+                  50.084502
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Kaiserštejnský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4046859,
+                  50.0878045
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Valdštejnský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4060345,
+                  50.0897182
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Buquoyský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.406562,
+                  50.0855074
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Malý Buquoyský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4059241,
+                  50.0858102
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Ministerstvo školství, mládeže a tělovýchovy",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4052263,
+                  50.0856045
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Smiřických",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4041664,
+                  50.0885877
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Šternberský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4042117,
+                  50.088959
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Thunovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4045627,
+                  50.0900475
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Hartigovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4021302,
+                  50.0876852
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Lichtenštejnský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4019138,
+                  50.0876151
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Morzinský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4007151,
+                  50.0881493
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Kinských",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3992278,
+                  50.0879125
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Fürstenberský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4068567,
+                  50.0906395
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Pálffyovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4050451,
+                  50.0908992
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Schützenů",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4039004,
+                  50.0900512
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Thunovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4025726,
+                  50.0895632
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Černínský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4037961,
+                  50.0897607
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Šelmberský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4015824,
+                  50.0893871
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Toskánský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3946971,
+                  50.0889558
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Hrzánský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3939425,
+                  50.0885517
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Trčkovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3908905,
+                  50.0877279
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Dietrichštejnský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3942905,
+                  50.0886573
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Losenovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3959908,
+                  50.0901872
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Martinický palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3954061,
+                  50.0899058
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Arcibiskupský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3976217,
+                  50.0898473
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Šternberský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3960458,
+                  50.0904011
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "dům pážat pánů z Martinic",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3937613,
+                  50.0903133
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Libeňský zámek",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4708355,
+                  50.10765
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Ctěnice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5643081,
+                  50.1494886
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Velkopřevorský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4065321,
+                  50.0865206
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Černínský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3896918,
+                  50.0891587
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác pánů z Hradce",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3999984,
+                  50.0889009
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Bretfeldský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3981236,
+                  50.0884327
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Pražský hrad",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4034181,
+                  50.0919369
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Pakoměřice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4788717,
+                  50.1815429
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Oettingenský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4065173,
+                  50.0884834
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Dolní Břežany",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4569044,
+                  49.9628071
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Grömlingovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4039626,
+                  50.0881056
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3996027,
+                  50.1584148
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Vrbnovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3922118,
+                  50.0882766
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Chodovská tvrz",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4990771,
+                  50.0344914
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Bílá věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4034181,
+                  50.0919369
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Daliborka",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4049047,
+                  50.0922812
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Obora",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4015803,
+                  50.1186927
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Jindřišská věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4300575,
+                  50.0851935
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "svatá Kateřina",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4256277,
+                  50.0737647
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Všech svatých",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.402348,
+                  50.0908351
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Havel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4226695,
+                  50.0856349
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Strahovský klášter",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3895946,
+                  50.0866935
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jindřich a svatá Kunhuta",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4302649,
+                  50.0848689
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Letohrádek Hvězda",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.326236,
+                  50.0832841
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Troja",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4124299,
+                  50.1165868
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Jenerálka",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3514919,
+                  50.1057871
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Veleslavín",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3508841,
+                  50.0932044
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Tuchoměřice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2796025,
+                  50.1359633
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Apoštolská nunciatura",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4167456,
+                  50.0810016
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Mac Newenův palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4235564,
+                  50.0814229
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Windischgrätzovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4092949,
+                  50.0895087
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Sterneggovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4052944,
+                  50.0868108
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Chotkovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4056395,
+                  50.084108
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Lobkovický palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3981362,
+                  50.0870901
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Schönbornský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.401133,
+                  50.0873409
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "U Tří jetelových lístků",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4036009,
+                  50.0861617
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Botanický ústav AV ČR",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5568393,
+                  50.0003503
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Hrzánský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4073969,
+                  50.0861476
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Turbovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4051704,
+                  50.0859333
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Harbuval-Chamaré",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4048369,
+                  50.0861961
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Thun-Hohensteinský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4042948,
+                  50.0864292
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Aueršperský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4048933,
+                  50.0900515
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Kolovratský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4064826,
+                  50.0905364
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Malý Fürstenberský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4060785,
+                  50.0910809
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Ledebourský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4045635,
+                  50.0907074
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Lažanských",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4033026,
+                  50.0895774
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Kolowratský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4035055,
+                  50.0891972
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Věžníkovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4014008,
+                  50.0892392
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Schwarzenberský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3967222,
+                  50.0892364
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "palác Hložků ze Žampachu",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3936167,
+                  50.090699
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Martinický palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3943424,
+                  50.0896267
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Chvalský zámek",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5950863,
+                  50.1113183
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "I.interní oddělení, pneumologie a hrudní chirurgie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4654256,
+                  50.1169164
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Kunratice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4824415,
+                  50.0121121
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Zámek Hostivice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2554375,
+                  50.0803398
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "zámek Klecany",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4106534,
+                  50.1784991
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Rokoska",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.463714,
+                  50.1165102
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Zámek Zbraslav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3917855,
+                  49.9780028
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Thun-Hohenštejnský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.400291,
+                  50.0885853
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Šporkův palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3969813,
+                  50.0878273
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Salmovský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3972304,
+                  50.089056
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Kučerův palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3888367,
+                  50.0878095
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Trauttmannsdorfský palác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3937648,
+                  50.0888043
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Petřínská rozhledna",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3952888,
+                  50.0833746
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Svatomikulášská městská zvonice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4035391,
+                  50.0877837
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Prašná brána",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4276958,
+                  50.0873193
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4452621,
+                  50.0075305
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.431456,
+                  50.0579097
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4156947,
+                  50.0786158
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4257081,
+                  50.0762295
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3310653,
+                  50.0761133
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Cibulka",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3559383,
+                  50.0647235
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4804516,
+                  50.0688575
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.522565,
+                  50.0845772
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.494873,
+                  50.11797
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Vodárenská věž Děvín",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3993744,
+                  50.0526527
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5242402,
+                  50.0487944
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Staroměstská mostecká věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4135209,
+                  50.0861537
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3566173,
+                  50.0848195
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4755493,
+                  50.0380315
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Zvonička",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3735457,
+                  50.0926986
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Petrská věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4338477,
+                  50.0913962
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4345534,
+                  50.0560377
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2962152,
+                  49.9764198
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5334704,
+                  50.1029711
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.521505,
+                  50.0721722
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Astronomická věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4164354,
+                  50.0866863
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4209438,
+                  50.0596827
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Malostranská mostecká věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.406782,
+                  50.0872635
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Radniční věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4207713,
+                  50.0870226
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3897193,
+                  50.1045813
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4043454,
+                  50.073501
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4043404,
+                  50.0733262
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4356077,
+                  50.0995243
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Geodetická věž Ládví",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4644484,
+                  50.1360424
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Vysílač Ládví",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4652279,
+                  50.1364337
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3130118,
+                  50.0819726
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Televizní věž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3758839,
+                  50.0798457
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "RKS Praha - Zbraslav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3667274,
+                  49.9474728
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "RKS Praha - Zbraslav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3686732,
+                  49.9481681
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "RKS Praha - Zbraslav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3706344,
+                  49.9488507
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4223347,
+                  50.0876926
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.422425,
+                  50.0875174
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3914096,
+                  50.0829638
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2583067,
+                  50.1292467
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Žižkovský vysílač",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4510681,
+                  50.0810371
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3587376,
+                  50.0585735
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2760779,
+                  50.0912763
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2476465,
+                  50.1055641
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2303343,
+                  50.1042522
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2681043,
+                  50.115583
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2924472,
+                  50.094274
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2925257,
+                  50.0942437
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.498335,
+                  50.1382291
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5000639,
+                  50.1393336
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3845089,
+                  50.0797714
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3829191,
+                  50.0795783
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3828437,
+                  50.0812149
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3844339,
+                  50.0810896
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3805245,
+                  50.0809805
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3818214,
+                  50.0810207
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3819573,
+                  50.0797624
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3806332,
+                  50.0797576
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3845043,
+                  50.0797624
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3922457,
+                  50.0702276
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2764598,
+                  50.0632374
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2830617,
+                  50.0512937
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5100348,
+                  50.0618413
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4602797,
+                  50.0821454
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4381608,
+                  50.065028
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2265576,
+                  50.0523465
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3168755,
+                  50.0710251
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "svatý Mikuláš",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4027394,
+                  50.0878598
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Petr",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.580574,
+                  50.0554064
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Atrium",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4532693,
+                  50.0818722
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vojtěch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4710454,
+                  50.1087619
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub Větší",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5553239,
+                  50.0338914
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Ignác z Loyoly",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4214941,
+                  50.0752111
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Norbert",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3779702,
+                  50.0916293
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatého archanděla Michaela",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3985332,
+                  50.0784434
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Duch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4200752,
+                  50.0900229
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vavřinec",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3962178,
+                  50.0830026
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Cyril a Metoděj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4169206,
+                  50.0758687
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Neposkvrněného početí Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4948724,
+                  50.0685979
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Ludmila",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4375056,
+                  50.0754151
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Mikuláš",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.419814,
+                  50.0877761
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Prokop",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4507475,
+                  50.0839621
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Maria Sněžná",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4236885,
+                  50.0831063
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Zesnutí přesvaté Bohorodice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4756707,
+                  50.0815189
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Antonín Paduánský",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4348314,
+                  50.0986534
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nejsvětější Salvátor",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4147791,
+                  50.0862493
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Katedrála svatého Klimenta",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4157382,
+                  50.0861697
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jiljí",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4183079,
+                  50.0849177
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub Větší",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4245902,
+                  50.0882589
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Voršila",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4159538,
+                  50.0812842
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Salvátor",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4204104,
+                  50.0891319
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Kliment",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4287209,
+                  50.0919038
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Petr na Poříčí",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4340074,
+                  50.0912962
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nejsvětější Trojice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4201849,
+                  50.0795888
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Marie, svatý Jeroným a slovanští patroni",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4171778,
+                  50.0722139
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jan Nepomucký Na Skalce",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4184121,
+                  50.0723467
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Filip a Jakub",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4089049,
+                  50.0473048
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Terezie z Lisieux",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4514754,
+                  50.1235574
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vojtěch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3869935,
+                  50.1022643
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Narození Páně",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3919032,
+                  50.0892733
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Václav na Zderaze",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4158208,
+                  50.0755828
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Václav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.404331,
+                  50.0734144
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nejsvětější Trojice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4180801,
+                  50.0706517
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Marie Bolestná u alžbětinek s kaplí svaté Tekly",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4202464,
+                  50.0694235
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Zvěstování Přesvaté Bohorodice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4214735,
+                  50.067473
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Českobratrská modlitebna",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3994116,
+                  50.0656004
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Šimon a Juda",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4209094,
+                  50.0920113
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý František z Assisi",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.414176,
+                  50.0865524
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Cyril a Metoděj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.447995,
+                  50.0910303
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Kliment",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4317563,
+                  50.0973449
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nejsvětější Srdce Páně",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4511184,
+                  50.0779163
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Obec křesťanů",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4088653,
+                  50.0969999
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Michal",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4207028,
+                  50.0599406
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Svatý Pankrác",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4312832,
+                  50.0578009
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Josef",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4058776,
+                  50.0883018
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4467657,
+                  50.0750604
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Maria Vítězná",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4030645,
+                  50.0856921
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Václav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3751685,
+                  50.0980642
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vojtěch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4154168,
+                  50.0785786
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vavřinec",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4037036,
+                  50.0844967
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Benedikt",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3958265,
+                  50.089113
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Cyril a Metoděj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3250677,
+                  50.1116738
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Martin ve zdi",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4197181,
+                  50.0829964
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Bartoloměj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5479355,
+                  50.097746
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jan Křtitel Na prádle",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4063802,
+                  50.0820157
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Tomáš",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4060781,
+                  50.0887923
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Markéta",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3560118,
+                  50.0847031
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Michal",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4178277,
+                  50.0802249
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Josef",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4291125,
+                  50.0886823
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Farní sbor Českobratrské církve evangelické Střešovice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3732666,
+                  50.0910458
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatí Jan a Pavel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2919655,
+                  50.0418091
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Kříž",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4263102,
+                  50.0853412
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Maria a svatý Karel Veliký",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.428408,
+                  50.0688381
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub Starší",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3127125,
+                  50.049083
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Roch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3878615,
+                  50.0866075
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Mikuláš",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4520206,
+                  50.0693936
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Karel Boromejský",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3962962,
+                  50.0869744
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Marie Matka ustavičné pomoci a svatý Kajetán",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3995915,
+                  50.0886622
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Kliment",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3741453,
+                  50.1694402
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Petr a Pavel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4158771,
+                  50.1344184
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Martin",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3001001,
+                  50.0713781
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vavřinec",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2529558,
+                  50.1447161
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Prokop",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2377884,
+                  50.1330854
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Bartoloměj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4171322,
+                  50.0829403
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Žižkův sbor",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4610873,
+                  50.088045
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jan Nepomucký",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.392976,
+                  50.0902468
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Marie Andělská",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3905331,
+                  50.0899064
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub Větší",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4837537,
+                  50.0132207
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "sv. Ludmila",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5951588,
+                  50.1114448
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panna Maria Vítězná",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3219447,
+                  50.0759623
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Komunitní centrum svatého Prokopa",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3456347,
+                  50.0498559
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Fabián a Šebestián",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.328844,
+                  50.0870751
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "sv. Bartoloměj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.362931,
+                  50.1998459
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Betlémská kaple",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4542068,
+                  50.0860942
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Anna",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4614433,
+                  50.08726
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Husův sbor",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4541078,
+                  50.0686906
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Sacré Coeur",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.398568,
+                  50.075751
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Gabriel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3964452,
+                  50.0750221
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Milíčova modlitebna",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5075232,
+                  50.0870399
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4025003,
+                  50.1242824
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Václav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4946343,
+                  50.1182316
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Církev bratrská",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5121263,
+                  50.0131689
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Maří Magdalena",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2964674,
+                  50.1173033
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jiří",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2341275,
+                  50.0356925
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Vavřinec",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3673605,
+                  50.0477801
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Anežka",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4790209,
+                  50.0441599
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Narození Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4874021,
+                  50.0528672
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nanebevzetí panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4071575,
+                  50.004057
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Stětí svatého Jana Křtitele",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5244954,
+                  50.049056
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2578331,
+                  50.0806207
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Martin",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4946655,
+                  50.1921528
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Povýšení svatého Kříže",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5808207,
+                  50.142994
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nanebevzetí Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4110155,
+                  50.1772183
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Havel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3866607,
+                  49.9747143
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub Větší",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3923134,
+                  49.9781971
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Husův sbor Zbraslav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3890798,
+                  49.9701086
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Stětí svatého Jana Křtitele",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2129418,
+                  50.0259114
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jakub Starší",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2462448,
+                  50.0110269
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Michal",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2929782,
+                  50.1711643
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatá Kateřina",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2800008,
+                  49.9837866
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "kaple sv. Anny",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4381214,
+                  50.2126457
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Modlitebna CASD",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3837381,
+                  50.0621532
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Filip a Jakub",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3880459,
+                  50.0620221
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Michael archanděl",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4200274,
+                  50.0862503
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý František z Assisi",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5031663,
+                  50.0317348
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Petr a Pavel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.36225,
+                  49.9816963
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Prokop",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5165858,
+                  49.9995218
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Kostel Stětí svatého Jana Křtitele",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2962679,
+                  50.0216542
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3003547,
+                  50.0213533
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nanebevzetí Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5799845,
+                  50.0883492
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Remigius",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5241823,
+                  50.1516541
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3731687,
+                  50.0643096
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Hřbitovní kaple",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4400156,
+                  50.0450702
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2860442,
+                  50.1643725
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5922073,
+                  50.0353914
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Bartoloměj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2006399,
+                  50.1145876
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Narození Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4791842,
+                  50.1812772
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Nanebevzetí Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3224612,
+                  49.9635376
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Stětí svatého Jana Křtitele",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4421081,
+                  50.1492037
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Panny Marie",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5377148,
+                  49.9867006
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Václav",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4242796,
+                  50.1348952
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Martin",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2865981,
+                  49.9720592
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Petr a Pavel",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4806234,
+                  49.9596153
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý František z Assisi",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4477016,
+                  50.040823
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Kostel svatého Apolináře",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4235427,
+                  50.0708901
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Matka Boží před Týnem",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4222719,
+                  50.0877623
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "svatý Jiří",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5346725,
+                  50.1034776
+               ]
+            },
+            "type": "church"
+         },
+         {
+            "name": "Litovická tvrz",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.23554,
+                  50.07571
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "name": "Baumit",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5140254,
+                  50.1534798
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Sconto",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5827674,
+                  50.1107849
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4979433,
+                  50.1781598
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Ládvi",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4643177,
+                  50.1362632,
+                  359
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Zámek Petrovice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5558699,
+                  50.033551
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3491792,
+                  50.1293156
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.348308,
+                  50.1300016
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5300499,
+                  50.0980058
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4464828,
+                  50.2068168
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5464152,
+                  50.008304
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Teleček",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2715222,
+                  50.0546721,
+                  399
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5681562,
+                  50.1069447
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2467163,
+                  50.0834456
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.504698,
+                  50.0191002
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2993397,
+                  50.047258
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5031818,
+                  50.0317925
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3925853,
+                  49.9940877
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Velká skála",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4265202,
+                  50.124904,
+                  314
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.585188,
+                  50.1093652
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Havlín",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.386725,
+                  49.9747942,
+                  267
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5159894,
+                  49.9756024
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Dívčí skok",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3221742,
+                  50.1005728,
+                  null
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4255081,
+                  49.9768216
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4256343,
+                  49.9768316
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4247673,
+                  49.9771829
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.425235,
+                  49.977473
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5377549,
+                  49.9904496
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4891489,
+                  49.9614197
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Vysehrad Castle",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4185822,
+                  50.0643719
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4159641,
+                  50.1794264
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Třebotovská Tvrz",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2887459,
+                  49.9719332
+               ]
+            },
+            "type": "castle"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5742918,
+                  50.092117
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Letná",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4158713,
+                  50.094904,
+                  231
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Mích",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4455904,
+                  50.205982,
+                  283
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Pískách",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4188536,
+                  50.2032349,
+                  283
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4158277,
+                  50.1628702,
+                  286
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4075214,
+                  50.1245587,
+                  266
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Stříbrník",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3518332,
+                  50.1668459,
+                  311
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3717041,
+                  50.1548039,
+                  297
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Skalce",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.352242,
+                  50.1364877,
+                  325
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Háj",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3134669,
+                  50.1235295,
+                  343
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Hajnice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3095953,
+                  50.1557589,
+                  337
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Vršku",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3191306,
+                  50.1696497,
+                  320
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Zabitém",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3420903,
+                  50.1789673,
+                  313
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Krliš",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3278875,
+                  50.1870946,
+                  308
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3859638,
+                  50.1330688,
+                  274
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4189113,
+                  50.192361,
+                  284
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.253218,
+                  50.1727222,
+                  304
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Beckově",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4610773,
+                  50.1902939,
+                  302
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Bílá hora",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3192415,
+                  50.0782356,
+                  381
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Černá skála",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4156282,
+                  50.1715128,
+                  null
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4658666,
+                  50.1227277,
+                  293
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Velký vrch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.37685,
+                  50.1840175,
+                  288
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3602317,
+                  50.1424008,
+                  296
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3608924,
+                  50.1427594,
+                  289
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3625082,
+                  50.1440503,
+                  293
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3637216,
+                  50.1447849,
+                  295
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5749736,
+                  50.0897759
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4420326,
+                  50.1310298,
+                  325
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Klevetník",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4135915,
+                  50.1514138,
+                  265
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Hřivnáč",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3244897,
+                  50.1666196,
+                  321
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4030538,
+                  50.1184947,
+                  228
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2959639,
+                  50.1013874
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3987529,
+                  50.0880804
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4617413,
+                  50.1238447
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Číčovický kamýk",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2493082,
+                  50.1448754,
+                  345
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Řivnáč",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3610793,
+                  50.1661786,
+                  292
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4386667,
+                  50.1173299,
+                  260
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Skalka",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3130881,
+                  50.1611453,
+                  295
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3974091,
+                  49.9942293
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3979502,
+                  49.994387
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4166551,
+                  50.1206614
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3443815,
+                  49.9608544
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4047997,
+                  50.1699485,
+                  null
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Křížek",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3033949,
+                  50.158272,
+                  322
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5474896,
+                  50.0754925
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Vidoule",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3499955,
+                  50.0599058,
+                  371
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3509899,
+                  50.1784407
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3325302,
+                  50.0166864
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3848045,
+                  50.1267278
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Paví vrch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3991768,
+                  50.0626572,
+                  281
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Rovinách",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3844555,
+                  50.0506093,
+                  336
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Na Vidouli",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3591454,
+                  50.0586438,
+                  368
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Petřín",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3949292,
+                  50.0816583,
+                  327
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Hliník",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3479729,
+                  50.0658868,
+                  305
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Děvín",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3915646,
+                  50.0451343,
+                  310
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Malivy",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2649578,
+                  50.0885766,
+                  380
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Růžová",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2349451,
+                  50.046542,
+                  410
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.342661,
+                  50.1605143,
+                  280
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3509912,
+                  50.1673284,
+                  307
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Erz",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.306188,
+                  50.1877302,
+                  345
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Kameníček",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3585382,
+                  50.1975469,
+                  228.6
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4184832,
+                  50.0898982
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.295965,
+                  50.1945429
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Vítkov",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4608927,
+                  50.0907459,
+                  270
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3986087,
+                  50.0765099
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "Zabitý kopec",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5533853,
+                  50.1573936,
+                  263.8
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Čihadlo",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4227316,
+                  49.9760176,
+                  386
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4401685,
+                  50.0096944,
+                  293
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Kamínek",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4731652,
+                  49.9649742,
+                  378
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4423369,
+                  50.1269383,
+                  331
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3396683,
+                  49.9876368,
+                  346
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3214331,
+                  50.1036038,
+                  363.9
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3302038,
+                  50.0981343,
+                  337
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Džbán",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3214036,
+                  50.0963905,
+                  363
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3295282,
+                  50.1048594,
+                  340
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3377927,
+                  50.1040253,
+                  334
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Červený vrch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.3538401,
+                  50.0999696,
+                  327
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.2159616,
+                  50.0414026,
+                  389
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "skládka Ďáblice",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4731024,
+                  50.1562019,
+                  322
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.532903,
+                  50.1389016,
+                  280
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5291596,
+                  50.1390282,
+                  275
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Homole",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5355472,
+                  50.0735017,
+                  266
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5484422,
+                  50.0428841,
+                  315
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Milíčovský vrch",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.5288996,
+                  50.0232058,
+                  308
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "name": "Bílá Skála",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4575328,
+                  50.1149768,
+                  258
+               ]
+            },
+            "type": "peak"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4098732,
+                  50.0917523
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "name": "fotbalový míč",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4373809,
+                  50.0332847
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.522067,
+                  50.0717033
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4912056,
+                  50.0376088
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4478551,
+                  50.0372536
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4083996,
+                  49.948816
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4228017,
+                  49.9526875
+               ]
+            },
+            "type": "tower"
+         },
+         {
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+                  14.4440073,
+                  50.090176
+               ]
+            },
+            "type": "tower"
+         }
+      ],
       "tiles": [
          {
             "url": "http://localhost:3000/api/v2/dtm1m_quarter.png",
@@ -28,8 +4747,8 @@
                   "geometry": {
                      "type": "Point",
                      "coordinates": [
-                        49.918796,
                         14.197602,
+                        49.918796,
                         100
 						]
                   },
@@ -42,8 +4761,8 @@
                   "geometry": {
                      "type": "Point",
                      "coordinates": [
-                        50.213923,
                         14.769625,
+                        50.213923,
                         250
                      ]
                   },

@@ -3,6 +3,22 @@ import World from './World';
 import { IGeoLabelData } from '../ui/UIDataModel';
 
 
+const TypesConfig = {
+        peak:{
+            color: '#915014'
+        },
+        castle:{
+            color: '#393939'
+        },
+        church:{
+            color: '#915014'
+        },
+        tower:{
+            color: '#3000ff'
+        }
+};
+
+
 export default class GeoLabel {
     public mesh: BABYLON.AbstractMesh;
     public sprite: BABYLON.Sprite;
@@ -10,7 +26,7 @@ export default class GeoLabel {
 
     constructor(private _world: World,
                 public title: string,
-                public type: string,
+                public type: "peak"|"castle"|"church"|"tower",
                 private _position: BABYLON.Vector3,) {
         this.createBabylonMesh();
         this._world.geoLabels.push(this);
@@ -18,6 +34,10 @@ export default class GeoLabel {
 
     get position(): BABYLON.Vector3 {
         return this._position;
+    }
+
+    get color():string{
+        return TypesConfig[this.type].color;
     }
 
     createBabylonMesh() {
@@ -30,18 +50,18 @@ export default class GeoLabel {
         //this.sprite.position = this._position.add(new BABYLON.Vector3(0,10,0));
         //this.sprite.isPickable = true;
 
-        const above = 20;
+        const above = 5;
 
         let geoLabelMaterial = new BABYLON.StandardMaterial("geoLabelMaterial", this._world.scene);
         geoLabelMaterial.specularTexture = new BABYLON.Texture('/assets/textures/black.jpg', this._world.scene);
-        geoLabelMaterial.emissiveColor = BABYLON.Color3.FromHexString('#ff1d4e');
+        geoLabelMaterial.emissiveColor = BABYLON.Color3.FromHexString(this.color);
         //geoLabelMaterial.alpha = 0.3;
         //geoLabelMaterial.wireframe = true;
         geoLabelMaterial.freeze();
 
         console.log(geoLabelMaterial);
 
-        this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 3, this._world.scene);
+        this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 1.5, this._world.scene);
         //this.mesh.isVisible = false;
         this.mesh.material = geoLabelMaterial;
         this.mesh.position = this._position.add(new BABYLON.Vector3(0,above,0));
@@ -85,6 +105,7 @@ export default class GeoLabel {
         return {
             title: this.title,
             type: this.type,
+            color: this.color,
             onScreen:{position, visible}
         };
     }

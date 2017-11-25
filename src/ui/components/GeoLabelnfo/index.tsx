@@ -14,14 +14,14 @@ export default observer(({uiDataModel}: { uiDataModel: UIDataModel }) => {
             {uiDataModel.geoLabelsData.map((geoLabelData, i) => (
                 <div key={i}>
                     <h1>{geoLabelData.title}</h1>
-                    <p>esdf wrgsdwersg rsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
+                    {/*<p>esdf wrgsdwersg rsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
                         w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
                         w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
                         w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
                         w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
                         w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
                         w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh w4retdhersgfrsg wrshdferstgh
-                        w4retdhersgfwrshdferstgh w4retdhersgf</p>
+                        w4retdhersgfwrshdferstgh w4retdhersgf</p>*/}
                 </div>
 
             ))}

@@ -8,9 +8,10 @@ export default ({geoLabelsData}: { geoLabelsData: IGeoLabelData[] }) => {
     return (
         <ul className="geoLabels">
 
-            {geoLabelsData.map((geoLabelData, i) => (
+            {geoLabelsData.filter((geoLabelData)=>geoLabelData.title||''!=='').map((geoLabelData, i) => (
 
-                <li key={i} className={geoLabelData.type} style={{
+                <li key={i} style={{
+                    backgroundColor: geoLabelData.color,
                     opacity: geoLabelData.onScreen.visible ? 1 : 0,
                     position: 'absolute',
                     top: geoLabelData.onScreen.position.y,
