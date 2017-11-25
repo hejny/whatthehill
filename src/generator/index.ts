@@ -46,7 +46,8 @@ export default class WorldGenerator {
 
                         const geoLabel = new GeoLabel(
                             this.world,
-                            'Kopec',
+                            'Něco',
+                            'tower',
                             new BABYLON.Vector3(
                                 x,
                                 groundMesh.getHeightAtCoordinates(x, z),

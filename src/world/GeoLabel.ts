@@ -8,6 +8,7 @@ export default class GeoLabel {
 
     constructor(private _world: World,
                 public title: string,
+                public type: string,
                 private _position: BABYLON.Vector3,) {
         this.createBabylonMesh();
         this._world.geoLabels.push(this);
@@ -52,6 +53,7 @@ export default class GeoLabel {
 
         return {
             title: this.title,
+            type: this.type,
             onScreen:{position, visible}
         };
     }

@@ -5,15 +5,31 @@ ul.geoLabels {
 ul.geoLabels li {
     z-index: 20;
 
-    background-color: #0052ff;
+    background-color: #000000;
     color: #FFFFFF;
 
     box-shadow: #FFFFFF 0 0 5px;
 
     border-radius: 3px;
     padding: 10px;
+    text-align: center;
 
     transform: translate(-50%, calc(-100% - 20px));
 
     transition: all 0.1s ease-in-out;
+}
+
+
+ul.geoLabels li.hill{
+    background-color: #005735;
+}
+ul.geoLabels li.tower{
+    background-color: #0052ff;
+}
+
+
+ul.geoLabels li h2{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
 }

@@ -7,6 +7,7 @@ interface ILinkArea{position:IVector2,size:IVector2,title:string,url:string}
 
 export interface IGeoLabelData{
     title: string;
+    type: string;
     onScreen: {
         visible: boolean;
         position:{
