@@ -4740,7 +4740,8 @@
       ],
       "tiles": [
          {
-            "url": "https://hejny.github.io/whatthehill/api/v2/dtm1m_quarter.png",
+            "url": "http://localhost:3000/api/v2/dtm1m_quarter.png",
+            "urlAlbedo": "http://localhost:3000/api/v2/dtm1m_quarterAlbedo.png",
             "boundingBox": {
                "min": {
                   "type": "Feature",

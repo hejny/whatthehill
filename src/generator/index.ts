@@ -14,8 +14,7 @@ export default class WorldGenerator {
         this.world;
 
 
-        const {status, data} = await requestJSON('https://hejny.github.io/whatthehill/api/v2/location.json', {});//todo send data
-
+        const {status, data} = await requestJSON('/api/v2/location.json', {});//todo send data
 
         const groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
         //groundMaterial.backFaceCulling = false;
@@ -78,7 +77,12 @@ export default class WorldGenerator {
              512,//subdivs
              -30, 10,
              this.world.scene, false);*/
-            groundMesh.material = groundMaterial;
+
+            const groundMaterialAlbedo = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
+            groundMaterialAlbedo.diffuseTexture = new BABYLON.Texture(tile.urlAlbedo,this.world.scene);
+            groundMaterialAlbedo.freeze();
+
+            groundMesh.material = groundMaterialAlbedo;
 
         }
 
