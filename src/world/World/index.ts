@@ -49,40 +49,43 @@ export default class World{
             const pickResult = this.scene.pick(event.clientX,event.clientY,(mesh)=>mesh.name==='GeoLabel');
             //console.log(event,pickResult);
             if (pickResult.hit) {
-                //pickResult.pickedSprite.size += 0.5;
+                if(uiDataModel.geoLabelsData.length===0) {
+                    console.log('hoover');
 
-                const pickedGeoLabel = this.geoLabels.find((geoLabel)=>geoLabel.mesh===pickResult.pickedMesh);
+                    const pickedGeoLabel = this.geoLabels.find((geoLabel) => geoLabel.mesh === pickResult.pickedMesh);
 
-                if(typeof pickedGeoLabel!=='undefined') {
-                    uiDataModel.geoLabelsData = [pickedGeoLabel.getData()]
+                    if (typeof pickedGeoLabel !== 'undefined') {
+                        uiDataModel.geoLabelsData = [pickedGeoLabel.getData()]
+                    }
+                    //this.geoLabels.map((geoLabel)=>geoLabel.getData());
+
                 }
-                //this.geoLabels.map((geoLabel)=>geoLabel.getData());
-
-
             }else{
-                uiDataModel.geoLabelsData = [];
+                if(uiDataModel.geoLabelsData.length!==0){
+                    console.log('unhoover');
+                    uiDataModel.geoLabelsData = [];
+                }
+
             }
         };
-        this.scene.onPointerUp = (event,pickInfo)=>{
+        this.scene.onPointerUp = this.scene.onPointerMove;/*(event,pickInfo)=>{
 
             const pickResult = this.scene.pick(event.clientX,event.clientY,(mesh)=>mesh.name==='ground');
             if (pickResult.hit) {
 
-                /*const geoLabel = new GeoLabel(
+                const geoLabel = new GeoLabel(
                     this,
                     'aa',
                     'aa',
                     pickResult.pickedPoint
-                );*/
-
-                /*
+                );
                 var animationBox = new BABYLON.Animation("tutoAnimation", "position.x", pickResult.pickedPoint.x, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT);
-                this.player.camera.animations.push(animationBox);*/
+                this.player.camera.animations.push(animationBox);
 
             }else{
                 this.scene.onPointerMove(event,pickInfo);
             }
-        }
+        }*/
 
 
 

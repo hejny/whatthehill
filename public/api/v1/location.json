@@ -1,0 +1,94 @@
+{
+  "status": "OK",
+  "data": {
+    "meta": {
+      "name": "Petrin",
+      "geometry": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50,
+            50,
+            10
+          ]
+        },
+        "properties": {
+          "name": "Insert_name"
+        }
+      }
+    },
+    "poi": [
+      {
+        "name": "Nekopec",
+        "type": "hill",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            25,
+            75,
+            90
+          ]
+        }
+      },{
+        "name": "Kostel sv. Anny",
+        "type": "church",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            40,
+            70,
+            90
+          ]
+        }
+      },
+      {
+        "name": "Pod skálou",
+        "type": "church",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10,
+            70,
+            90
+          ]
+        }
+      },
+      {
+        "name": "Cesta",
+        "type": "church",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            30,
+            30,
+            90
+          ]
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "url": "http://localhost:3000/api/tiles/heightMap.png",
+        "boundingBox": {
+          "min": {
+            "type": "Point",
+            "coordinates": [
+              0,
+              0,
+              0
+            ]
+          },
+          "max": {
+            "type": "Point",
+            "coordinates": [
+              100,
+              100,
+              100
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

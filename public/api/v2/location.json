@@ -1,0 +1,59 @@
+{
+   "status": "OK",
+   "data": {
+      "meta": {
+         "name": "TestPlace",
+         "geometry": {
+            "type": "Feature",
+            "geometry": {
+               "type": "Point",
+               "coordinates": [
+		            50.0663595,
+		            14.4836135,
+                  200
+               ]
+            },
+            "properties": {
+               "name": "TestPosition"
+            }
+         }
+      },
+      "poi": [],
+      "tiles": [
+         {
+            "url": "dtm1m_quarter.png",
+            "boundingBox": {
+               "min": {
+                  "type": "Feature",
+                  "geometry": {
+                     "type": "Point",
+                     "coordinates": [
+                        49.918796,
+                        14.197602,
+                        100
+						]
+                  },
+                  "properties": {
+                     "name": "TestPosition"
+                  }
+               },
+               "max": {
+                  "type": "Feature",
+                  "geometry": {
+                     "type": "Point",
+                     "coordinates": [
+                        50.213923,
+                        14.769625,
+                        250
+                     ]
+                  },
+                  "properties": {
+                     "name": "TestPosition"
+                  }
+               }
+            }
+         }
+      ]
+   }
+}
+

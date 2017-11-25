@@ -1,0 +1,23 @@
+.GeoLabelInfo{
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+
+    padding: 5px;
+    padding-left: 15px;
+
+    border-radius: 3px;
+    box-shadow: black 0 0 5px;
+    background-color: white;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.GeoLabelInfo.filled{
+    right: 0;
+}
+.GeoLabelInfo.empty{
+     right: -320px;
+ }
