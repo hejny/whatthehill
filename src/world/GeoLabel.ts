@@ -32,15 +32,17 @@ export default class GeoLabel {
 
 
         let geoLabelMaterial = new BABYLON.StandardMaterial("geoLabelMaterial", this._world.scene);
-        geoLabelMaterial.emissiveColor = BABYLON.Color3.FromHexString('#ff0000');
-        geoLabelMaterial.alpha = 0.3;
+        geoLabelMaterial.specularTexture = new BABYLON.Texture('/assets/textures/black.jpg', this._world.scene);
+        geoLabelMaterial.emissiveColor = BABYLON.Color3.FromHexString('#ff1d4e');
+        //geoLabelMaterial.alpha = 0.3;
+        //geoLabelMaterial.wireframe = true;
         geoLabelMaterial.freeze();
 
         console.log(geoLabelMaterial);
 
         this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 3, this._world.scene);
         //this.mesh.isVisible = false;
-        //this.mesh.material = geoLabelMaterial;
+        this.mesh.material = geoLabelMaterial;
         this.mesh.position = this._position.add(new BABYLON.Vector3(0,5,0));
 
         //(name: string, height: number, diameterTop: number, diameterBottom: number, tessellation: number, subdivisions: any, scene?: Scene, updatable?: any, sideOrientation?: number)

@@ -7,4 +7,4 @@ export default function(){
             <h1>Bod</h1>
         </main>
     );
-});
+}

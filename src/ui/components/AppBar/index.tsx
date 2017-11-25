@@ -4,7 +4,7 @@ import './index.css';
 export default function(){
     return (
         <nav className="AppBar">
-            <h1>KamKoukám</h1>
+            <h1>WhatTheHill</h1>
         </nav>
     );
-});
+}

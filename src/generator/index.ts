@@ -17,9 +17,9 @@ export default class WorldGenerator {
         const {status, data} = await requestJSON('/api/location.json', {});//todo send data
 
 
-        var groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
+        const groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
         //groundMaterial.backFaceCulling = false;
-        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#d9ff46');
+        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#ffd59f');
         //groundMaterial.alpha = 0.7;
         groundMaterial.alpha = 1;
         groundMaterial.freeze();
@@ -54,7 +54,6 @@ export default class WorldGenerator {
                             z = (normalizedPoint.latitude - .5) * 200;
 
                         console.log(x,z);
-
                         const geoLabel = new GeoLabel(
                             this.world,
                             poi.name,
@@ -85,6 +84,9 @@ export default class WorldGenerator {
         const bigGroundFlatTile = BABYLON.Mesh.CreateGround("ground", 100000, 100000, 2, this.world.scene);
         bigGroundFlatTile.position = new BABYLON.Vector3(0,-30,0);
         bigGroundFlatTile.material = groundMaterial;
+
+
+
 
     }
 }

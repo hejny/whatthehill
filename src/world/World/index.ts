@@ -63,8 +63,31 @@ export default class World{
                 uiDataModel.geoLabelsData = [];
             }
         };
-        this.scene.onPointerDown = this.scene.onPointerMove;
-        this.scene.onPointerUp = this.scene.onPointerMove;
+        this.scene.onPointerUp = (event,pickInfo)=>{
+
+            const pickResult = this.scene.pick(event.clientX,event.clientY,(mesh)=>mesh.name==='ground');
+            if (pickResult.hit) {
+
+                /*const geoLabel = new GeoLabel(
+                    this,
+                    'aa',
+                    'aa',
+                    pickResult.pickedPoint
+                );*/
+
+                /*
+                var animationBox = new BABYLON.Animation("tutoAnimation", "position.x", pickResult.pickedPoint.x, BABYLON.Animation.ANIMATIONTYPE_FLOAT, BABYLON.Animation.ANIMATIONLOOPMODE_CONSTANT);
+                this.player.camera.animations.push(animationBox);*/
+
+            }else{
+                this.scene.onPointerMove(event,pickInfo);
+            }
+        }
+
+
+
+
+
 
 
         /*setInterval(()=>{
