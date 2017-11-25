@@ -1,20 +1,18 @@
 import * as BABYLON from 'babylonjs';
 import World from '../world/World';
+import GeoLabel from '../world/GeoLabel';
 import requestJSON from '../tools/requestJSON';
 //import Brick from '../world/Brick';
 
-export default class WorldGenerator{
-    constructor(
-        private world:World
-    ){}
+export default class WorldGenerator {
+    constructor(private world: World) {
+    }
 
-    async generateWorld(){
+    async generateWorld() {
         this.world;
 
 
-
-        const {status, data} = await requestJSON('/api/location.json',{});//todo send data
-
+        const {status, data} = await requestJSON('/api/location.json', {});//todo send data
 
 
         var groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
@@ -24,7 +22,7 @@ export default class WorldGenerator{
         groundMaterial.alpha = 1;
 
 
-        for(const tile of data.tiles){
+        for (const tile of data.tiles) {
 
 
             console.log(tile);
@@ -41,6 +39,21 @@ export default class WorldGenerator{
 
 
         }
+
+
+
+        for(let i=0;i<100;i++){
+
+            new GeoLabel(
+                this.world,
+                new BABYLON.Vector3(
+                    (Math.random()-.5)*200,
+                    10,
+                    (Math.random()-.5)*200
+                ));
+        }
+
+
 
     }
 }
