@@ -10,7 +10,7 @@ export default ({geoLabelsData}: { geoLabelsData: IGeoLabelData[] }) => {
 
             {geoLabelsData.map((geoLabelData, i) => (
 
-                <li className="" style={{
+                <li key={i} style={{
                     display: geoLabelData.onScreen.visible ? 'block' : 'none',
                     position: 'absolute',
                     top: geoLabelData.onScreen.position.y,
