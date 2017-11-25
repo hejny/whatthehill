@@ -5,6 +5,8 @@
   "dependencies": {
     "@types/node": "^8.0.22",
     "babylonjs": "^3.0.1-alpha",
+    "mobx": "^3.3.0",
+    "mobx-react": "^4.3.2",
     "react-scripts-ts": "2.6.0"
   },
   "scripts": {

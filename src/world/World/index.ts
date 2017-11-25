@@ -6,6 +6,7 @@ import GeoLabel from '../GeoLabel';
 import createScene from './createScene';
 import createLights from './createLights';
 import createSkyboxMesh from './createSkyboxMesh';
+import UIDataModel from '../../ui/UIDataModel';
 
 export default class World{
     public engine:BABYLON.Engine;
@@ -23,7 +24,7 @@ export default class World{
     ){
     }
 
-    run(){
+    run(uiDataModel: UIDataModel){
         this.geoLabels=[];
         this.engine = new BABYLON.Engine(this.canvasElement, true);
 
@@ -44,7 +45,7 @@ export default class World{
         this.skyboxMesh = createSkyboxMesh(this.scene);
 
         this.worldGenerator = new WorldGenerator(this);
-        this.worldGenerator.generateWorld();
+        this.worldGenerator.generateWorld(uiDataModel);
     }
 
     pick(left:number=.5,top:number=.5):BABYLON.PickingInfo {

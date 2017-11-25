@@ -2,13 +2,14 @@ import * as BABYLON from 'babylonjs';
 import World from '../world/World';
 import GeoLabel from '../world/GeoLabel';
 import requestJSON from '../tools/requestJSON';
+import UIDataModel from '../ui/UIDataModel';
 //import Brick from '../world/Brick';
 
 export default class WorldGenerator {
     constructor(private world: World) {
     }
 
-    async generateWorld() {
+    async generateWorld(uiDataModel: UIDataModel) {
         this.world;
 
 
@@ -22,6 +23,7 @@ export default class WorldGenerator {
         groundMaterial.alpha = 1;
         groundMaterial.freeze();
 
+        uiDataModel.geoLabels = [];
 
         for (const tile of data.tiles) {
             console.log(tile);
@@ -29,7 +31,7 @@ export default class WorldGenerator {
             var options = {
                 width: 200,
                 height: 200,
-                subdivisions: 200,
+                subdivisions: 100,
                 minHeight: -30,
                 maxHeight: 10,
                 onReady: (groundMesh: BABYLON.GroundMesh) => {
@@ -44,13 +46,17 @@ export default class WorldGenerator {
                             z = (Math.random() - .5) * 200;
 
 
-                        new GeoLabel(
+                        const geoLabel = new GeoLabel(
                             this.world,
+                            'Kopec',
                             new BABYLON.Vector3(
                                 x,
                                 groundMesh.getHeightAtCoordinates(x, z),
                                 z
                             ));
+
+                        uiDataModel.geoLabels.push(geoLabel);
+
                     }
 
 
