@@ -1,0 +1,12 @@
+ul.geoLabels{
+     overflow: hidden;
+}
+
+ul.geoLabels li{
+    z-index: 20;
+
+    background-color: black;
+    color: #FFFFFF;
+
+    transition: all 0.1s ease-in-out;
+}

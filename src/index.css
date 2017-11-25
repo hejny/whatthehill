@@ -1,3 +1,7 @@
+body{
+    overflow: hidden;
+}
+
 #scene{
     position: absolute;
     top: 0;

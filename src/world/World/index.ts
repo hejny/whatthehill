@@ -45,7 +45,14 @@ export default class World{
         this.skyboxMesh = createSkyboxMesh(this.scene);
 
         this.worldGenerator = new WorldGenerator(this);
-        this.worldGenerator.generateWorld(uiDataModel);
+        this.worldGenerator.generateWorld();
+
+
+        setInterval(()=>{
+
+            uiDataModel.geoLabelsData = this.geoLabels.map((geoLabel)=>geoLabel.getData());
+
+        },100);
     }
 
     pick(left:number=.5,top:number=.5):BABYLON.PickingInfo {
