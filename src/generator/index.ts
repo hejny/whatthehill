@@ -34,7 +34,7 @@ export default class WorldGenerator {
             var options = {
                 width: 200,
                 height: 200,
-                subdivisions: 200,
+                subdivisions: 256,
                 minHeight: -30,
                 maxHeight: 10,
                 onReady: (groundMesh: BABYLON.GroundMesh) => {

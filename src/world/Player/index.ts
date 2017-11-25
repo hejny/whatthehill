@@ -4,14 +4,15 @@ import createCamera from './createCamera';
 import setPlayerMouseLock from './setPlayerMouseLock';
 import setPlayerMovement from './setPlayerMovement';
 import setPlayerAction from './setPlayerAction';
-//import {PLAYER} from '../../config';
 
 export default class Player {
 
     public mesh: BABYLON.AbstractMesh;
     public camera: BABYLON.FreeCamera;
 
-    constructor(public world: World) {
+    constructor(
+        public world: World
+    ) {
 
         this.camera = createCamera(world.scene);
         this.camera.attachControl(world.canvasElement);

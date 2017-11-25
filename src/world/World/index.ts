@@ -37,8 +37,8 @@ export default class World{
         console.log('world',this);
 
         this.scene = createScene(this.engine);
-        this.lights = createLights(this.scene);
         this.player = new Player(this);
+        this.lights = createLights(this.scene,this.player);
         this.skyboxMesh = createSkyboxMesh(this.scene);
 
         this.worldGenerator = new WorldGenerator(this);

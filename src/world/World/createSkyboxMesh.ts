@@ -2,12 +2,7 @@ import * as BABYLON from 'babylonjs';
 
 export default function createSkyboxMesh(scene:BABYLON.Scene):BABYLON.AbstractMesh{
 
-    //scene.fogMode = BABYLON.Scene.FOGMODE_EXP;
-    //scene.fogColor = BABYLON.Color3.FromHexString('#c8e7ff');
-    //scene.fogDensity = 0.01;
-
-
-    const skyboxMesh = BABYLON.Mesh.CreateBox("skyBox", 1000, scene);
+    const skyboxMesh = BABYLON.Mesh.CreateBox("skyBox", 10000, scene);
     skyboxMesh.applyFog = false;
     const skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
     skyboxMaterial.backFaceCulling = false;
@@ -19,6 +14,12 @@ export default function createSkyboxMesh(scene:BABYLON.Scene):BABYLON.AbstractMe
     //skyboxMesh.isVisible = false;
     skyboxMesh.infiniteDistance = true;
     skyboxMesh.material = skyboxMaterial;
+
+    scene.registerBeforeRender(()=>{
+        skyboxMesh.rotation.y = performance.now()/1000/Math.PI/50;
+    });
+
+
     return skyboxMesh;
     /**/
 }
