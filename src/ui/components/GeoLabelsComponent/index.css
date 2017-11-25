@@ -1,5 +1,8 @@
 ul.geoLabels {
     overflow: hidden;
+    margin:0;
+    padding: 0;
+    list-style: none;
 }
 
 ul.geoLabels li {
@@ -11,17 +14,20 @@ ul.geoLabels li {
     box-shadow: #FFFFFF 0 0 5px;
 
     border-radius: 3px;
+    margin:0;
     padding: 10px;
     text-align: center;
 
     transform: translate(-50%, calc(-100% - 20px));
 
     transition: all 0.1s ease-in-out;
+
+    list-style: none;
 }
 
 
 ul.geoLabels li.hill{
-    background-color: #005735;
+    background-color: #570054;
 }
 ul.geoLabels li.tower{
     background-color: #0052ff;

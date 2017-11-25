@@ -20,7 +20,8 @@ export default class GeoLabel {
     }
 
     createBabylonMesh() {
-        this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 2, this._world.scene);
+        this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 10, this._world.scene);
+        this.mesh.isVisible = false;
     }
 
 

@@ -4,6 +4,7 @@ import GeoLabel from '../world/GeoLabel';
 import requestJSON from '../tools/requestJSON';
 //import UIDataModel from '../ui/UIDataModel';
 //import Brick from '../world/Brick';
+import GeoPoint from './GeoPoint';
 
 export default class WorldGenerator {
     constructor(private world: World) {
@@ -24,7 +25,11 @@ export default class WorldGenerator {
         groundMaterial.freeze();
 
         for (const tile of data.tiles) {
-            console.log(tile);
+
+            //console.log(tile);
+            const minPoint = GeoPoint.fromJSON(tile.boundingBox.min);
+            const maxPoint = GeoPoint.fromJSON(tile.boundingBox.max);
+
 
             var options = {
                 width: 200,
@@ -37,17 +42,23 @@ export default class WorldGenerator {
                     //console.log(groundMesh);
                     //console.log(groundMesh.getHeightAtCoordinates(0,0));
 
-                    for (let i = 0; i < 10; i++) {
+                    for (const poi of data.poi) {
+
+                        //console.log(poi);
+                        const point = GeoPoint.fromJSON(poi.geometry);
+                        const normalizedPoint = point.normalizeInCage(minPoint,maxPoint);
+
 
                         const
-                            x = (Math.random() - .5) * 200,
-                            z = (Math.random() - .5) * 200;
+                            x = (normalizedPoint.longitude - .5) * 200,
+                            z = (normalizedPoint.latitude - .5) * 200;
 
+                        console.log(x,z);
 
                         const geoLabel = new GeoLabel(
                             this.world,
-                            'Něco',
-                            'tower',
+                            poi.name,
+                            poi.type,
                             new BABYLON.Vector3(
                                 x,
                                 groundMesh.getHeightAtCoordinates(x, z),

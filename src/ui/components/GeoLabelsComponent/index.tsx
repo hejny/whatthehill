@@ -17,7 +17,6 @@ export default ({geoLabelsData}: { geoLabelsData: IGeoLabelData[] }) => {
                     left: geoLabelData.onScreen.position.x,
                 }}>
                     <h2>{geoLabelData.title}</h2>
-                    1&nbsp;560
                 </li>
 
             ))}
