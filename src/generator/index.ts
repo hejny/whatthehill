@@ -16,22 +16,30 @@ export default class WorldGenerator{
         const {status, data} = await requestJSON('/api/location.json',{});//todo send data
 
 
-        const tile = data.tiles[0];
-        console.log(tile);
 
-        this.world.player.mesh.position.y += 100;
-
-
-        const groundMesh = BABYLON.Mesh.CreateGroundFromHeightMap("ground", "/public/api/tiles/worldHeightMap.jpg", 200, 200, 250, 0, 10, this.world.scene, false);
-        return groundMesh;
+        var groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
+        groundMaterial.backFaceCulling = false;
+        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#cccccc');
+        groundMaterial.alpha = 0.7;
 
 
+        for(const tile of data.tiles){
 
 
+            console.log(tile);
+            const groundMesh = BABYLON.Mesh.CreateGroundFromHeightMap("groundTile", tile.url,
+                200, 200,
+                100,//subdivs
+                -10, 10,
+                this.world.scene, false);
+            groundMesh.material = groundMaterial;
 
 
+            console.log(groundMesh);
+            console.log(groundMesh.getHeightAtCoordinates(0,0));
 
 
+        }
 
     }
 }
