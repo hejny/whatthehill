@@ -1,0 +1,46 @@
+{
+  "status": "OK",
+  "data": {
+    "meta": {
+      "name": "Petrin",
+      "geometry": {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50,
+            14,
+            200
+          ]
+        },
+        "properties": {
+          "name": "Insert_name"
+        }
+      }
+    },
+    "poi": [
+      {
+        "name": "Kostel sv. Anny",
+        "type": "church",
+        "geometry": {
+        }
+      }
+    ],
+    "tiles": [
+      {
+        "url": "/map?bbox=[[49.5,13.6,150],[50.3,14.9,300]]&lod=0",
+        "boundingBox": {
+          "min": {},
+          "max": {}
+        }
+      },
+      {
+        "url": "/map?bbox=[[49,14,150],[51,15.5,300]]&lod=6",
+        "boundingBox": {
+          "min": {},
+          "max": {}
+        }
+      }
+    ]
+  }
+}
