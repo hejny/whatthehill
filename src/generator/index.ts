@@ -19,8 +19,9 @@ export default class WorldGenerator{
 
         var groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
         groundMaterial.backFaceCulling = false;
-        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#cccccc');
-        groundMaterial.alpha = 0.7;
+        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#ffffff');
+        //groundMaterial.alpha = 0.7;
+        groundMaterial.alpha = 1;
 
 
         for(const tile of data.tiles){
@@ -30,13 +31,13 @@ export default class WorldGenerator{
             const groundMesh = BABYLON.Mesh.CreateGroundFromHeightMap("groundTile", tile.url,
                 200, 200,
                 100,//subdivs
-                -10, 10,
+                -30, 10,
                 this.world.scene, false);
             groundMesh.material = groundMaterial;
 
 
-            console.log(groundMesh);
-            console.log(groundMesh.getHeightAtCoordinates(0,0));
+            //console.log(groundMesh);
+            //console.log(groundMesh.getHeightAtCoordinates(0,0));
 
 
         }

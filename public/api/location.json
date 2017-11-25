@@ -28,7 +28,7 @@
     ],
     "tiles": [
       {
-        "url": "/public/api/tiles/worldHeightMap.jpg",
+        "url": "http://localhost:3000/api/tiles/heightMap.png",
         "boundingBox": {
           "min": {},
           "max": {}

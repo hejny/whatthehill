@@ -14,6 +14,7 @@ export default class Player {
     constructor(public world: World) {
 
         this.camera = createCamera(world.scene);
+        this.camera.attachControl(world.canvasElement);
         this.mesh = BABYLON.Mesh.CreateSphere("player", 16, 1, world.scene);
         this.mesh.isVisible = false;
         this.mesh.position = new BABYLON.Vector3(0, 0, 0);
@@ -21,8 +22,8 @@ export default class Player {
         this.mesh.scaling = new BABYLON.Vector3(1, 4, 1);
 
 
-        setPlayerMouseLock(this.world.canvasElement, this.camera);
-        setPlayerMovement(this);
+        //setPlayerMouseLock(this.world.canvasElement, this.camera);
+        //setPlayerMovement(this);
         setPlayerAction(this);
     }
 
