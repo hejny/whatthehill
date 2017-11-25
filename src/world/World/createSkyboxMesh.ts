@@ -3,7 +3,7 @@ import * as BABYLON from 'babylonjs';
 export default function createSkyboxMesh(scene:BABYLON.Scene):BABYLON.AbstractMesh{
 
     scene.fogMode = BABYLON.Scene.FOGMODE_EXP;
-    scene.fogColor = BABYLON.Color3.FromHexString('#395aff');
+    scene.fogColor = BABYLON.Color3.FromHexString('#c8e7ff');
     scene.fogDensity = 0.01;
 
 
