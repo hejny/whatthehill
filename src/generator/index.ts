@@ -18,8 +18,8 @@ export default class WorldGenerator {
 
 
         var groundMaterial = new BABYLON.StandardMaterial("groundMaterial", this.world.scene);
-        groundMaterial.backFaceCulling = false;
-        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#ffffff');
+        //groundMaterial.backFaceCulling = false;
+        groundMaterial.diffuseColor = BABYLON.Color3.FromHexString('#d9ff46');
         //groundMaterial.alpha = 0.7;
         groundMaterial.alpha = 1;
         groundMaterial.freeze();

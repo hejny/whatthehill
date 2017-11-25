@@ -46,12 +46,12 @@ export default class World{
 
 
         this.scene.onPointerMove = (event)=>{
-            const pickResult = this.scene.pickSprite(event.clientX,event.clientY);
+            const pickResult = this.scene.pick(event.clientX,event.clientY,(mesh)=>mesh.name==='GeoLabel');
             //console.log(event,pickResult);
             if (pickResult.hit) {
                 //pickResult.pickedSprite.size += 0.5;
 
-                const pickedGeoLabel = this.geoLabels.find((geoLabel)=>geoLabel.sprite===pickResult.pickedSprite);
+                const pickedGeoLabel = this.geoLabels.find((geoLabel)=>geoLabel.mesh===pickResult.pickedMesh);
 
                 if(typeof pickedGeoLabel!=='undefined') {
                     uiDataModel.geoLabelsData = [pickedGeoLabel.getData()]

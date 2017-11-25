@@ -22,17 +22,32 @@ export default class GeoLabel {
 
     createBabylonMesh() {
 
-        this.spriteManager = new BABYLON.SpriteManager("GeoLabelSpriteManager", "/assets/sprites/poi.png", 1, 1, this._world.scene);
-        this.spriteManager.isPickable = true;
-        this.sprite = new BABYLON.Sprite("GeoLabel", this.spriteManager);
-        this.sprite.size = 3;
-        this.sprite.position = this._position.add(new BABYLON.Vector3(0,10,0));
-        this.sprite.isPickable = true;
+        //this.spriteManager = new BABYLON.SpriteManager("GeoLabelSpriteManager", "/assets/sprites/poi.png", 1, 630, this._world.scene);
+
+        //this.spriteManager.isPickable = true;
+        //this.sprite = new BABYLON.Sprite("GeoLabel", this.spriteManager);
+        //this.sprite.size = 5;
+        //this.sprite.position = this._position.add(new BABYLON.Vector3(0,10,0));
+        //this.sprite.isPickable = true;
 
 
-        this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 10, this._world.scene);
-        this.mesh.isVisible = false;
-        this.mesh.position = this._position;
+        let geoLabelMaterial = new BABYLON.StandardMaterial("geoLabelMaterial", this._world.scene);
+        geoLabelMaterial.emissiveColor = BABYLON.Color3.FromHexString('#ff0000');
+        geoLabelMaterial.alpha = 0.3;
+        geoLabelMaterial.freeze();
+
+        console.log(geoLabelMaterial);
+
+        this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 3, this._world.scene);
+        //this.mesh.isVisible = false;
+        //this.mesh.material = geoLabelMaterial;
+        this.mesh.position = this._position.add(new BABYLON.Vector3(0,5,0));
+
+        //(name: string, height: number, diameterTop: number, diameterBottom: number, tessellation: number, subdivisions: any, scene?: Scene, updatable?: any, sideOrientation?: number)
+        const cylinder = BABYLON.Mesh.CreateCylinder("cylinder", 1, 1, 1, 6, 1, this._world.scene, false);
+        cylinder.material = geoLabelMaterial;
+        cylinder.position = this._position.add(new BABYLON.Vector3(0,2.5,0));
+        cylinder.scaling = new BABYLON.Vector3(.3,5,.3);
     }
 
 
@@ -49,7 +64,7 @@ export default class GeoLabel {
 
         let visible:boolean;
 
-        if(
+        /*if(
             position.x>0 &&
             position.y>0 &&
             position.x<this._world.canvasElement.width &&
@@ -60,7 +75,8 @@ export default class GeoLabel {
             visible = (pickInfo.pickedMesh === this.mesh);
         }else{
             visible = false;
-        }
+        }*/
+        visible = true;
 
 
         return {
