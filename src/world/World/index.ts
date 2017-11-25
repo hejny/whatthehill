@@ -45,11 +45,33 @@ export default class World{
         this.worldGenerator.generateWorld();
 
 
-        setInterval(()=>{
+        this.scene.onPointerMove = (event)=>{
+            const pickResult = this.scene.pickSprite(event.clientX,event.clientY);
+            //console.log(event,pickResult);
+            if (pickResult.hit) {
+                //pickResult.pickedSprite.size += 0.5;
+
+                const pickedGeoLabel = this.geoLabels.find((geoLabel)=>geoLabel.sprite===pickResult.pickedSprite);
+
+                if(typeof pickedGeoLabel!=='undefined') {
+                    uiDataModel.geoLabelsData = [pickedGeoLabel.getData()]
+                }
+                //this.geoLabels.map((geoLabel)=>geoLabel.getData());
+
+
+            }else{
+                uiDataModel.geoLabelsData = [];
+            }
+        };
+        this.scene.onPointerDown = this.scene.onPointerMove;
+        this.scene.onPointerUp = this.scene.onPointerMove;
+
+
+        /*setInterval(()=>{
 
             uiDataModel.geoLabelsData = this.geoLabels.map((geoLabel)=>geoLabel.getData());
 
-        },100);
+        },100);*/
     }
 
     pick(left:number=.5,top:number=.5):BABYLON.PickingInfo {

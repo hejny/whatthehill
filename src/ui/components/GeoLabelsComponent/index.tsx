@@ -11,7 +11,7 @@ export default ({geoLabelsData}: { geoLabelsData: IGeoLabelData[] }) => {
             {geoLabelsData.map((geoLabelData, i) => (
 
                 <li key={i} className={geoLabelData.type} style={{
-                    display: geoLabelData.onScreen.visible ? 'block' : 'none',
+                    opacity: geoLabelData.onScreen.visible ? 1 : 0,
                     position: 'absolute',
                     top: geoLabelData.onScreen.position.y,
                     left: geoLabelData.onScreen.position.x,

@@ -16,6 +16,9 @@ export default function createSkyboxMesh(scene:BABYLON.Scene):BABYLON.AbstractMe
     skyboxMaterial.diffuseColor = new BABYLON.Color3(0, 0, 0);
     skyboxMaterial.specularColor = new BABYLON.Color3(0, 0, 0);
     skyboxMaterial.disableLighting = true;
+    //skyboxMesh.isVisible = false;
+    skyboxMesh.infiniteDistance = true;
     skyboxMesh.material = skyboxMaterial;
     return skyboxMesh;
+    /**/
 }

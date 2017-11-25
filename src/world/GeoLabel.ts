@@ -5,6 +5,8 @@ import { IGeoLabelData } from '../ui/UIDataModel';
 
 export default class GeoLabel {
     public mesh: BABYLON.AbstractMesh;
+    public sprite: BABYLON.Sprite;
+    public spriteManager: BABYLON.SpriteManager;
 
     constructor(private _world: World,
                 public title: string,
@@ -12,7 +14,6 @@ export default class GeoLabel {
                 private _position: BABYLON.Vector3,) {
         this.createBabylonMesh();
         this._world.geoLabels.push(this);
-        this.mesh.position = this._position;
     }
 
     get position(): BABYLON.Vector3 {
@@ -20,8 +21,18 @@ export default class GeoLabel {
     }
 
     createBabylonMesh() {
+
+        this.spriteManager = new BABYLON.SpriteManager("GeoLabelSpriteManager", "/assets/sprites/poi.png", 1, 1, this._world.scene);
+        this.spriteManager.isPickable = true;
+        this.sprite = new BABYLON.Sprite("GeoLabel", this.spriteManager);
+        this.sprite.size = 3;
+        this.sprite.position = this._position.add(new BABYLON.Vector3(0,10,0));
+        this.sprite.isPickable = true;
+
+
         this.mesh = BABYLON.Mesh.CreateSphere("GeoLabel", 16, 10, this._world.scene);
         this.mesh.isVisible = false;
+        this.mesh.position = this._position;
     }
 
 

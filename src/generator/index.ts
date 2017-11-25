@@ -82,5 +82,9 @@ export default class WorldGenerator {
         }
 
 
+        const bigGroundFlatTile = BABYLON.Mesh.CreateGround("ground", 100000, 100000, 2, this.world.scene);
+        bigGroundFlatTile.position = new BABYLON.Vector3(0,-30,0);
+        bigGroundFlatTile.material = groundMaterial;
+
     }
 }
