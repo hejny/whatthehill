@@ -4740,8 +4740,8 @@
       ],
       "tiles": [
          {
-            "url": "http://localhost:3000/api/v2/dtm1m_quarter.png",
-            "urlAlbedo": "http://localhost:3000/api/v2/dtm1m_quarterAlbedo.png",
+            "url": "/api/v2/dtm1m_quarter.png",
+            "urlAlbedo": "/api/v2/dtm1m_quarterAlbedo.png",
             "boundingBox": {
                "min": {
                   "type": "Feature",
