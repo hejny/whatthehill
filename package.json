@@ -24,5 +24,9 @@
         "deploy": "gh-pages -d build"
     },
     "license": "SEE LICENSE IN LICENSE",
-    "description": "This app was made on a hackathon and not maintained for a long time. So expect a very pure code quality."
+    "description": "This app was made on a hackathon and not maintained for a long time. So expect a very pure code quality.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hejny/whatthehill"
+    }
 }
