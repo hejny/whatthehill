@@ -1,4 +1,6 @@
-# `This app was made on a hackathon and not maintained for a long time. So expect a very pure code quality.`
+# 🗻 What the hill
+
+`This app was made on a hackathon and not maintained for a long time. So expect a very pure code quality.`
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
