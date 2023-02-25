@@ -1,8 +1,6 @@
 import * as BABYLON from 'babylonjs';
 import World from '../World';
 import createCamera from './createCamera';
-import setPlayerMouseLock from './setPlayerMouseLock';
-import setPlayerMovement from './setPlayerMovement';
 import setPlayerAction from './setPlayerAction';
 
 export default class Player {

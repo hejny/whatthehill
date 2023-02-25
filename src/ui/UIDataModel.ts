@@ -1,4 +1,4 @@
-import {observable,computed} from "mobx";
+import { observable } from "mobx";
 //import GeoLabel from "../world/GeoLabel";
 
 interface IMessage{date:Date,text:string}

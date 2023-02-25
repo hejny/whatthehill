@@ -1,7 +1,7 @@
 import * as BABYLON from 'babylonjs';
-import World from '../world/World';
-import GeoLabel from '../world/GeoLabel';
 import requestJSON from '../tools/requestJSON';
+import GeoLabel from '../world/GeoLabel';
+import World from '../world/World';
 //import UIDataModel from '../ui/UIDataModel';
 //import Brick from '../world/Brick';
 import GeoPoint from './GeoPoint';

@@ -1,5 +1,5 @@
+import { observer } from 'mobx-react';
 import * as React from 'react';
-import {observer} from 'mobx-react';
 import UIDataModel from '../../UIDataModel';
 import './index.css';
 

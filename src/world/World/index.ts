@@ -1,11 +1,11 @@
 import * as BABYLON from 'babylonjs';
 import WorldGenerator from "../../generator";
-import Player from '../Player';
-import GeoLabel from '../GeoLabel';
-import createScene from './createScene';
-import createLights from './createLights';
-import createSkyboxMesh from './createSkyboxMesh';
 import UIDataModel from '../../ui/UIDataModel';
+import GeoLabel from '../GeoLabel';
+import Player from '../Player';
+import createLights from './createLights';
+import createScene from './createScene';
+import createSkyboxMesh from './createSkyboxMesh';
 
 export default class World{
     public engine:BABYLON.Engine;

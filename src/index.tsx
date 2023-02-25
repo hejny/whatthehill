@@ -1,9 +1,9 @@
-import World from './world/World';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import './index.css';
 import Root from './ui/components/Root';
 import UIDataModel from './ui/UIDataModel';
-import './index.css';
+import World from './world/World';
 
 const uiDataModel = new UIDataModel();
 

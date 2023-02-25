@@ -1,6 +1,6 @@
 import * as BABYLON from 'babylonjs';
-import World from './World';
 import { IGeoLabelData } from '../ui/UIDataModel';
+import World from './World';
 
 
 const TypesConfig = {

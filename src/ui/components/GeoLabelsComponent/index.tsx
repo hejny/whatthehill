@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {IGeoLabelData} from '../../UIDataModel';
+import { IGeoLabelData } from '../../UIDataModel';
 import './index.css';
 
 export default ({geoLabelsData}: { geoLabelsData: IGeoLabelData[] }) => {
