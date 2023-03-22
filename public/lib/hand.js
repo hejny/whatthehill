@@ -64,7 +64,7 @@ var HANDJS = HANDJS || {};
         while (node && !node.handjs_forcePreventDefault) {
             node = node.parentNode;
         }
-        return TODO: !!node || window.handjs_forcePreventDefault;
+        return !!node || window.handjs_forcePreventDefault;
     };
 
     // Touch events
