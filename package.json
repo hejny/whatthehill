@@ -28,5 +28,15 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/hejny/whatthehill"
-    }
+    },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/hejny"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/hejny/whatthehill/blob/main/README.md#%EF%B8%8F-contributing"
+        }
+    ]
 }
