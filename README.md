@@ -6,7 +6,7 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/whatthehill/badge.svg)](https://snyk.io/test/github/hejny/whatthehill)
 [![Issues](https://img.shields.io/github/issues/hejny/whatthehill.svg?style=flat)](https://github.com/hejny/whatthehill/issues)
-<!--[![License of 🗻 What the hill](https://img.shields.io/github/license/hejny/whatthehill.svg?style=flat)](https://github.com/hejny/whatthehill/blob/main/LICENSE)-->
+<!--[![License of What the hill](https://img.shields.io/github/license/hejny/whatthehill.svg?style=flat)](https://github.com/hejny/whatthehill/blob/main/LICENSE)-->
 <!--[![Socket](https://socket.dev/api/badge/npm/package/3d-project)](https://socket.dev/npm/package/3d-project)-->
 
 <!--/Badges-->
