@@ -11,8 +11,8 @@
         "gh-pages": "1.1.0",
         "mobx": "3.3.0",
         "mobx-react": "4.3.2",
-        "react": "16.1.1",
-        "react-dom": "16.1.1",
+        "react": "16.14.0",
+        "react-dom": "16.14.0",
         "react-scripts-ts": "2.6.0"
     },
     "scripts": {
