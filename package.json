@@ -1,6 +1,6 @@
 {
     "name": "3d-project",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "homepage": "https://hejny.github.io/whatthehill",
     "private": false,
     "dependencies": {
